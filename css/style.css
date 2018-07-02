@@ -1,0 +1,112 @@
+* {
+    font-family: 'Lato', sans-serif !important;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-image: url("../assets/hero.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(51, 51, 102, 0.85);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.green {
+    color: #00cccc;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+#heroPara {
+    height: 100%;
+}
+
+hr {
+    width: 4em;
+    background-color: #00cccc;
+    border-width: 0.5em;
+}
+
+#explainer {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/secondHero.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.overlay2 {
+    background-color: rgba(51, 51, 102, 0.85);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+#services i {
+    color: #00cccc;
+    font-size: 5rem;
+}
+
+#grid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    all: initial !important;
+}
+
+.icon  {
+    border: #FFFFFF solid 2px;
+    border-radius: 100px;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.icon i {
+    font-size: 2rem;
+}
